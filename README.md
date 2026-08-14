@@ -12,7 +12,7 @@ Materials for different editions of the session are organized in year-specific f
 
 | Year	| Slides	| Summer School Website |
 | ----	| ----	| ------------ |
-| 2026 |	[View slides](https://laura-tte.github.io/LMU-OSSS-DMPs/2026/slides.htm) | [LMU Open Science Summer School 2026](https://lmu-osc.github.io/Open-Science-Summer-School-2026/)
+| 2026 |	[View slides](https://laura-tte.github.io/LMU-OSSS-DMPs/2026/slides.html) | [LMU Open Science Summer School 2026](https://lmu-osc.github.io/Open-Science-Summer-School-2026/)
 
 
 ## Overview
@@ -67,7 +67,7 @@ Future editions can be added as additional year-specific folders, for example 20
 
 The slides are published via **GitHub Pages** and can be accessed here:  
 
-[2026](https://laura-tte.github.io/LMU-OSSS-DMPs/2026/slides.htm)
+[2026](https://laura-tte.github.io/LMU-OSSS-DMPs/2026/slides.html)
 
 ## How to Build Locally
 
