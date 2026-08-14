@@ -12,7 +12,7 @@ Materials for different editions of the session are organized in year-specific f
 
 | Year	| Slides	| Summer School Website |
 | ----	| ----	| ------------ |
-| 2026 |	[View slides](https://laura-tte.github.io/OSS-DMPs/2026/) |	[LMU Open Science Summer School 2026](https://lmu-osc.github.io/Open-Science-Summer-School-2026/)
+| 2026 |	[View slides](https://laura-tte.github.io/LMU-OSSS-DMPs/2026/) | [LMU Open Science Summer School 2026](https://lmu-osc.github.io/Open-Science-Summer-School-2026/)
 
 
 ## Overview
@@ -67,7 +67,7 @@ Future editions can be added as additional year-specific folders, for example 20
 
 The slides are published via **GitHub Pages** and can be accessed here:  
 
-[2026](https://laura-tte.github.io/OSS-DMPs/2026/)
+[2026](https://laura-tte.github.io/LMU-OSSS-DMPs/2026/)
 
 ## How to Build Locally
 
@@ -76,8 +76,8 @@ The slides are published via **GitHub Pages** and can be accessed here:
 2. Clone this repository:
 
 ```bash
-git clone https://github.com/laura-tte/OSS-DMPs.git
-cd OSS-DMPs
+git clone https://github.com/laura-tte/LMU-OSSS-DMPs.git
+cd LMU-OSSS-DMPs
 ```
 
 3. Render a specific version
@@ -85,7 +85,7 @@ cd OSS-DMPs
 For example, to render the 2026 slides:
 
 ```bash
-quarto render 2026/slides.qmd`
+quarto render 2026/slides.qmd
 ```
 
 Alternatively:
