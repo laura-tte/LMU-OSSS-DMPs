@@ -47,6 +47,7 @@ By the end of this session, participants will:
 
 ## Repository Structure
 
+```text
 OSS-DMPs/ 
 ├── 2026/ 
 │ ├── slides.qmd # Quarto presentation 
@@ -58,6 +59,7 @@ OSS-DMPs/
 ├── LICENSE.md # License information 
 ├── CITATION.cff # Citation metadata 
 └── README.md # This file
+```
 
 Future editions can be added as additional year-specific folders, for example 2027/, while previous versions remain available.
 
@@ -93,7 +95,7 @@ cd 2026
 quarto render slides.qmd
 ```
 
-Open the generated HTML file in your browser to view the presentation.
+4. Open the generated HTML file in your browser to view the presentation.
 
 ## License
 
