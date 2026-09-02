@@ -1,0 +1,189 @@
+/*
+  Minimal LMU-OSC brand layer for this reveal.js deck.
+  Colors and typography follow the official osc-brand extension in
+  https://github.com/lmu-osc/tutorial-template (brand.yml). Per the LMU
+  brand guide, online content uses Roboto (Arial fallback) and Fira Code
+  for code. Only rules this deck actually uses are kept.
+*/
+
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&family=Fira+Code&display=swap');
+
+// LMU brand palette (brand.yml)
+$lmu-ub-blue: #00883A;
+$lmu-ub-blue: #0067ac;
+$lmu-black: #232323;
+$lmu-darkgrey: #626468;
+$lmu-lightgrey: #E6E6E7;
+
+$body-bg: #ffffff;
+$body-color: $lmu-black;
+$link-color: $lmu-ub-blue;
+$text-muted: $lmu-darkgrey;
+$font-family-sans-serif: "Roboto", Arial, sans-serif;
+$font-family-monospace: "Fira Code", monospace;
+$presentation-line-height: 1.4;
+$presentation-heading-color: $lmu-ub-blue;
+$presentation-heading-font-weight: 700;
+
+/*-- scss:rules --*/
+
+/* Green heading over a hairline rule; right margin clears the logo chip */
+.reveal .slides section > h2 {
+  border-bottom: 1px solid $lmu-lightgrey;
+  padding-bottom: 0.18em;
+  margin-bottom: 0.7em;
+  margin-right: 11%;
+}
+
+.reveal .slides section li {
+  margin-bottom: 0.25em;
+}
+
+/* Headings on green (dark-background) slides */
+.reveal section.has-dark-background h1,
+.reveal section.has-dark-background h2 {
+  color: #ffffff;
+  border-bottom: none;
+}
+
+/* OSC logo chip, top right on every slide (white plate is baked into the asset) */
+.reveal .slide-logo {
+  position: fixed !important;
+  top: 0.7rem !important;
+  right: 0.9rem !important;
+  bottom: auto !important;
+  left: auto !important;
+  height: 3.4rem !important;
+  max-height: 3.4rem !important;
+  max-width: none !important;
+  width: auto !important;
+  background: #ffffff;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.25rem;
+}
+
+/* Title slide: white on LMU green, with a short accent bar under the title */
+#title-slide .title {
+  color: #ffffff;
+  font-size: 1.85em;
+}
+
+#title-slide .title::after,
+.part h1::after,
+.section-title h1::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 5px;
+  background: rgba(255, 255, 255, 0.55);
+  margin: 0.35em auto 0 auto;
+  border-radius: 3px;
+}
+
+#title-slide .subtitle,
+#title-slide .quarto-title-author-name {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Section dividers: `# Heading {.part background-color="#00883A"}` */
+.part h1,
+.section-title h1 {
+  font-size: 1.5em;
+}
+
+/* Tables */
+.reveal table {
+  font-size: 0.72em;
+  border-collapse: collapse;
+}
+
+.reveal table th {
+  border-bottom: 3px solid $lmu-ub-blue;
+  padding: 0.25em 0.7em;
+}
+
+.reveal table td {
+  border-bottom: 1px solid $lmu-lightgrey;
+  padding: 0.25em 0.7em;
+}
+
+/* Utilities used in slides.qmd */
+.center {
+  text-align: center;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.smaller {
+  font-size: 0.8em !important;
+}
+
+.smallestish {
+  font-size: 0.65em !important;
+}
+
+.smallest {
+  font-size: 0.53em !important;
+}
+
+.large-text {
+  font-size: 1.2em !important;
+  font-weight: bold;
+}
+
+.nonincremental .fragment {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Chrome: footer and slide number */
+.reveal .footer {
+  font-size: 0.42em !important;
+  color: $lmu-darkgrey;
+}
+
+.reveal .slide-number {
+  color: $lmu-darkgrey;
+  background: transparent;
+  top: auto !important;
+  bottom: 10px !important;
+  right: 10px !important;
+}
+
+/* Specific additions */
+.img {
+  margin: 0 auto;
+  max-width: 90%;
+  height: auto;
+}
+
+.reveal .smaller-table {
+  transform: scale(0.9);  
+  transform-origin: top left;
+}
+
+.border {
+  border: 1px solid $lmu-lightgrey;
+}
+
+.centered-checklist {
+  width: 85%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.block-gap {
+  margin-top: 1.5em !important;
+}
+
+.container {
+  width: 97%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
+
