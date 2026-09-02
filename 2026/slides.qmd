@@ -121,7 +121,7 @@ We'll use this for collaborative activities throughout the workshop.
 Use an **alias name**, your **real name**, or **abstain** for polls/quizzes in Particify.
 ::: 
 
-# Part I: How to plan Data Management? {.section-title}
+# Part I: How to plan Data Management? {.section-title  .part .center background-color="#0067ac"}
 
 ## What is a Data Management plan? {.center}
 
@@ -202,7 +202,7 @@ Visit [partici.fi/36972724](https://partici.fi/36972724) to participate.
 
 ![](images/word-cloud-particify.png)
 
-# Part II: Why bother planning your Data Management? {.section-title}
+# Part II: Why bother planning your Data Management? {.section-title  .part .center background-color="#0067ac"}
 
 ## Avoid worst-case scenarios {.smaller .center}
 
@@ -269,7 +269,7 @@ Visit [partici.fi/36972724](https://partici.fi/36972724) to participate.
 :::
 
 
-# Part III: Tools that support you in planning {.section-title}
+# Part III: Tools that support you in planning {.section-title  .part .center background-color="#0067ac"}
 
 ## Data Management plan tools {.center}
 
@@ -328,7 +328,7 @@ Use RDMO to start creating a Data Management plan — either for your own resear
     - **Where to publish your data under which conditions?**
 :::
 
-# Wrap-Up: From Plan to FAIR {.section-title}
+# Wrap-Up: From Plan to FAIR {.section-title  .part .center background-color="#0067ac"}
 
 ## Planning is everything {.center}
 
