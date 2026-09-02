@@ -35,8 +35,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-2740581606dc327e82f18f789b69d8a0.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-7bc060487460e2b1e568fc1210eb6ccc.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -134,7 +133,7 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" class="quarto-title-block center">
+<section id="title-slide" data-background-color="#0067ac" class="quarto-title-block center">
   <h1 class="title">Research Data Management (RDM) plans</h1>
   <p class="subtitle">A Hands-on, Actionable Workshop for Researchers</p>
 
@@ -168,8 +167,9 @@ Laura Meier, Reema Gupta &amp; Sara Lil Middleton
 </section>
 <section id="recap-first-simple-fair-checklist" class="slide level2 center">
 <h2>Recap: First Simple FAIR Checklist</h2>
+<div class="centered-checklist">
 <div class="columns smaller">
-<div class="column smaller" style="width:50%;">
+<div class="column smaller left-align" style="width:50%;">
 <h4 id="planning-phase-findable-reusable">Planning Phase (Findable + Reusable)</h4>
 <ul class="task-list">
 <li><label><input type="checkbox">Repository identified</label></li>
@@ -178,7 +178,7 @@ Laura Meier, Reema Gupta &amp; Sara Lil Middleton
 <li><label><input type="checkbox">Folder structure planned</label></li>
 <li><label><input type="checkbox">Community standards identified</label></li>
 </ul>
-<h4 id="active-research-interoperable-accessible">Active Research (Interoperable + Accessible)</h4>
+<h4 class="block-gap" id="active-research-interoperable-accessible">Active Research (Interoperable + Accessible)</h4>
 <ul class="task-list">
 <li><label><input type="checkbox">README maintained with context</label></li>
 <li><label><input type="checkbox">Data dictionary created</label></li>
@@ -186,7 +186,7 @@ Laura Meier, Reema Gupta &amp; Sara Lil Middleton
 <li><label><input type="checkbox">Open formats used when possible</label></li>
 <li><label><input type="checkbox">Raw data preserved separately</label></li>
 </ul>
-</div><div class="column smaller" style="width:50%;">
+</div><div class="column smaller left-align" style="width:50%;">
 <h4 id="pre-publication-all-fair-principles">Pre-Publication (All FAIR principles)</h4>
 <ul class="task-list">
 <li><label><input type="checkbox">Documentation complete and clear</label></li>
@@ -195,7 +195,7 @@ Laura Meier, Reema Gupta &amp; Sara Lil Middleton
 <li><label><input type="checkbox">Metadata finalized</label></li>
 <li><label><input type="checkbox">Access permissions set</label></li>
 </ul>
-<h4 id="publication-findable-accessible">Publication (Findable + Accessible)</h4>
+<h4 class="block-gap" id="publication-findable-accessible">Publication (Findable + Accessible)</h4>
 <ul class="task-list">
 <li><label><input type="checkbox">DOI assigned and verified</label></li>
 <li><label><input type="checkbox">ORCID profile updated</label></li>
@@ -203,6 +203,7 @@ Laura Meier, Reema Gupta &amp; Sara Lil Middleton
 <li><label><input type="checkbox">All links functional</label></li>
 </ul>
 </div></div>
+</div>
 </section>
 <section id="todays-journey" class="slide level2 center">
 <h2>Today’s Journey</h2>
@@ -213,7 +214,7 @@ Laura Meier, Reema Gupta &amp; Sara Lil Middleton
 <p><em>…with the help of Data Management plans (DMP)</em></p>
 </div>
 </section>
-<section id="what-well-cover" class="slide level2">
+<section id="what-well-cover" class="slide level2 center">
 <h2>What we’ll cover</h2>
 <ul>
 <li class="fragment">How to plan Data Management?</li>
@@ -236,9 +237,9 @@ Laura Meier, Reema Gupta &amp; Sara Lil Middleton
 </section>
 <section id="interactive-elements-particify" class="slide level2 center">
 <h2>Interactive elements: Particify</h2>
-<div class="columns smaller">
+<div class="columns">
 <div class="column" style="width:50%;">
-<p><img data-src="images/Particify.png" style="width:70.0%"></p>
+<p><img data-src="images/Particify.png" style="width:65.0%"></p>
 </div><div class="column" style="width:50%;">
 <p><br></p>
 <p><strong>Join the interactive session:</strong></p>
@@ -269,7 +270,7 @@ Laura Meier, Reema Gupta &amp; Sara Lil Middleton
 <h1>Part I: How to plan Data Management?</h1>
 
 </section>
-<section id="what-is-a-data-management-plan" class="slide level2">
+<section id="what-is-a-data-management-plan" class="slide level2 center">
 <h2>What is a Data Management plan?</h2>
 <ul>
 <li class="fragment">Document that outlines how data will be handled during and after a research project</li>
@@ -282,47 +283,57 @@ Laura Meier, Reema Gupta &amp; Sara Lil Middleton
 </section>
 <section id="components-of-a-dmp" class="slide level2 center">
 <h2>Components of a DMP</h2>
-
-<img data-src="images/RD-Lifecycle.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://www.fdm-bayern.org/forschungsdatenmanagement/#fd-lebenszyklus">Research data life cycle</a> by Jürgen Rohrwild</p></section>
+<div class="img center">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/RD-Lifecycle.png"></p>
+<figcaption><a href="https://www.fdm-bayern.org/forschungsdatenmanagement/#fd-lebenszyklus">Research data life cycle</a> by Jürgen Rohrwild</figcaption>
+</figure>
+</div>
+</div>
+</section>
 <section id="keywords-for-data-sharing" class="slide level2 center">
 <h2>Keywords for: Data Sharing</h2>
+<div class="centered-checklist">
 <div class="columns smaller">
 <div class="column" style="width:20%;">
 <img data-src="images/RD-Lifecycle - sharing.png" class="r-stretch">
-</div><div class="column" style="width:40%;">
-<h4 id="access-availability">🔓 Access &amp; Availability</h4>
+</div><div class="column left-align" style="width:35%;">
+<h4 id="access-availability">Access &amp; Availability</h4>
 <ul>
 <li>Ensure access</li>
 <li>Publication</li>
 <li>Ethical / legal restrictions</li>
 <li>Repositories</li>
 </ul>
-<h4 id="conditions-licensing">⚖️ Conditions &amp; Licensing</h4>
+<h4 class="block-gap" id="conditions-licensing">Conditions &amp; Licensing</h4>
 <ul>
 <li>Licensing</li>
 <li>Embargo period</li>
-<li>Restrictions</li>
+<li>Access restrictions</li>
 </ul>
-</div><div class="column" style="width:40%;">
-<h4 id="content-to-share">📦 Content to Share</h4>
+</div><div class="column left-align" style="width:35%;">
+<h4 id="content-to-share">Content to Share</h4>
 <ul>
 <li>Metadata</li>
 <li>Data files</li>
 <li>Documentation</li>
 <li>Code</li>
 </ul>
-<h4 id="others">👩‍🔬 Others</h4>
+<h4 class="block-gap" id="others">Others</h4>
 <ul>
 <li>Responsibilities</li>
 <li>Timing</li>
+<li>Costs</li>
 </ul>
 </div></div>
+</div>
 </section>
-<section id="what-belongs-in-your-dmp" class="slide level2">
+<section id="what-belongs-in-your-dmp" class="slide level2 center">
 <h2>What belongs in your DMP?</h2>
 <div class="{columns}">
 <div class="column" style="width:70%;">
-<div class="left">
+<div class="left-align">
 <div class="callout callout-note no-icon callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -356,25 +367,27 @@ Laura Meier, Reema Gupta &amp; Sara Lil Middleton
 <h1>Part II: Why bother planning your Data Management?</h1>
 
 </section>
-<section id="avoid-worst-case-scenarios" class="slide level2 smaller">
+<section id="avoid-worst-case-scenarios" class="slide level2 smaller center">
 <h2>Avoid worst-case scenarios</h2>
 
 <img data-src="images/data-management-plan-with-text.jpg" class="r-stretch quarto-figure-center"><p class="caption">Data Management plan. The Turing Way Community. This image was created by Scriberia for The Turing Way community and is used under a CC-BY license. DOI:&nbsp;<a href="https://doi.org/10.5281/zenodo.4906004">10.5281/zenodo.4906004</a></p></section>
-<section id="why-should-you-care" class="slide level2">
+<section id="why-should-you-care" class="slide level2 center">
 <h2>Why should you care?</h2>
-<div class="columns">
-<div class="column" style="width:70%;">
+<div class="columns v-center-container">
+<div class="column" style="width:60%;">
+<div class="left-align">
 <p>A DMP will</p>
 <ul>
 <li class="fragment">clarify central aspects of RDM → <strong>structure</strong> for and optimization of Data Management</li>
 <li class="fragment">support your own good scientific work → ensures that your data is <strong>complete, accurate, trustworthy and FAIR</strong></li>
 <li class="fragment">be a data guideline for the <strong>entire course of the project</strong> → “living document“</li>
 </ul>
-</div><div class="column smallest center" style="width:30%;">
+</div>
+</div><div class="column smallest block-gap" style="width:40%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/unfinish-work-ai.png"></p>
-<figcaption>AI-generated, created with GPT-5</figcaption>
+<p><img data-src="images/Finish-Research-Project-RDM.png"></p>
+<figcaption>AI-generated, created with ChatGPT (OpenAI), 2026</figcaption>
 </figure>
 </div>
 </div></div>
@@ -422,7 +435,7 @@ Laura Meier, Reema Gupta &amp; Sara Lil Middleton
 </tr>
 </tbody>
 </table>
-<div class="smallest">
+<div class="smallest left-align block-gap">
 <p>Based on:</p>
 <ul>
 <li><strong>Biernacka, K., et al.&nbsp;(2023).</strong> Train-the-Trainer-Konzept zum Thema Forschungsdatenmanagement (Version 5). Zenodo. <a href="https://doi.org/10.5281/zenodo.10122153">https://doi.org/10.5281/zenodo.10122153</a></li>
@@ -430,11 +443,11 @@ Laura Meier, Reema Gupta &amp; Sara Lil Middleton
 </ul>
 </div>
 </section>
-<section id="room-for-improvement" class="slide level2">
+<section id="room-for-improvement" class="slide level2 center">
 <h2>Room for Improvement?</h2>
 <div class="columns">
 <div class="column" style="width:70%;">
-<div class="left">
+<div class="left-align">
 <div class="callout callout-note no-icon callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -460,21 +473,24 @@ Laura Meier, Reema Gupta &amp; Sara Lil Middleton
 <h1>Part III: Tools that support you in planning</h1>
 
 </section>
-<section id="data-management-plan-tools" class="slide level2">
+<section id="data-management-plan-tools" class="slide level2 center">
 <h2>Data Management plan tools</h2>
+<div class="left-align">
 <ul>
 <li class="fragment">Software to create Data Management plans</li>
 <li class="fragment"><strong>Simplified workflow</strong>, allows collaborative work</li>
 <li class="fragment"><strong>Project management tool</strong> for handling research data</li>
 <li class="fragment">No repository / storage solution: You cannot upload and store your data in a DMP tool</li>
 </ul>
+</div>
 <div class="fragment">
 <p>Example: <a href="https://rdmo.ub.lmu.de/">RDMO</a></p>
 <p><img data-src="images/RDMO-logo.png"></p>
 </div>
 </section>
-<section id="research-data-management-organiser-rdmo" class="slide level2">
+<section id="research-data-management-organiser-rdmo" class="slide level2 center">
 <h2>Research Data Management Organiser (RDMO)</h2>
+<div class="left-align">
 <ul>
 <li class="fragment">Online-Tool to create DMPs (Open Source)</li>
 <li class="fragment">DMPs are stored on local servers (by the LMU)</li>
@@ -488,16 +504,18 @@ Laura Meier, Reema Gupta &amp; Sara Lil Middleton
 <li class="fragment"><strong>Snapshots</strong>: Capture different versions of your DMP</li>
 </ul>
 </div>
+</div>
 </section>
 <section id="lets-explore-rdmo-together" class="slide level2 center smaller nonincremental">
 <h2>Let’s explore RDMO together</h2>
-<div class="fragment img">
-<p><a href="https://rdmo.ub.lmu.de/"><img data-src="images/RDMO-LMU.png"></a></p>
+<div class="fragment">
+<p><a href="https://rdmo.ub.lmu.de/"><img data-src="images/RDMO-LMU.png" class="border" style="width:65.0%"></a></p>
 </div>
 <p><a href="https://rdmo.ub.lmu.de/">https://rdmo.ub.lmu.de/</a></p>
 </section>
-<section id="now-its-your-turn" class="slide level2 scrollable">
+<section id="now-its-your-turn" class="slide level2 center scrollable">
 <h2>Now, it’s your turn…</h2>
+<div class="left-align">
 <div class="callout callout-note no-icon callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -520,6 +538,7 @@ Laura Meier, Reema Gupta &amp; Sara Lil Middleton
 </div>
 </div>
 </div>
+</div>
 </section></section>
 <section>
 <section id="wrap-up-from-plan-to-fair" class="title-slide slide level1 section-title center">
@@ -536,23 +555,36 @@ Laura Meier, Reema Gupta &amp; Sara Lil Middleton
 <li class="fragment">Take advantage of counseling services.</li>
 </ul>
 </section>
-<section id="university-library-rdm-services" class="slide level2">
+<section id="university-library-rdm-services" class="slide level2 center">
 <h2>University library: RDM services</h2>
-<ul>
-<li class="fragment">RDM information:
+<div class="columns smaller">
+<div class="column left-align" style="width:50%;">
+<p><strong>RDM information</strong>:</p>
 <ul>
 <li class="fragment">First contact point for questions concerning Research Data Management (RDM)</li>
-<li class="fragment">DMP tool, Electronic lab notebook, repositories for data publications, DOI registration, advice &amp; training for all LMU members</li>
-<li class="fragment">Contact via&nbsp;<a href="mailto:rdm@ub.uni-muenchen.de">rdm@ub.uni-muenchen.de</a>&nbsp;or&nbsp;-3560</li>
+<li class="fragment">Services and infrastructures:
+<ul>
+<li class="fragment">DMP tool: <a href="https://rdmo.ub.lmu.de/">RDMO</a></li>
+<li class="fragment">Electronic lab notebook: <a href="https://elab.ub.lmu.de/">eLabFTW</a></li>
+<li class="fragment">Repository for data publications: <a href="https://data.ub.uni-muenchen.de/">Open Data LMU</a></li>
+<li class="fragment">DOI registration, metadata support</li>
+<li class="fragment">Advice &amp; training for all LMU members</li>
 </ul></li>
-<li class="fragment">Research Data LMU: <a href="https://fdm.ub.lmu.de/">https://fdm.ub.lmu.de/</a></li>
+<li class="fragment">Contact via&nbsp;<a href="mailto:rdm@ub.uni-muenchen.de">rdm@ub.uni-muenchen.de</a>&nbsp;or&nbsp;-3560</li>
 </ul>
+</div><div class="column" style="width:10%;">
+
+</div><div class="column center" style="width:40%;">
+<p><strong>Research Data LMU</strong>: <a href="https://fdm.ub.lmu.de/">https://fdm.ub.lmu.de/</a> <img data-src="images/Research-Data-LMU.png" class="border" style="width:70.0%"></p>
+</div></div>
 </section>
-<section id="optional-follow-up" class="slide level2 smaller scrollable">
+<section id="optional-follow-up" class="slide level2 smaller center scrollable">
 <h2>OPTIONAL Follow-Up</h2>
+<div class="left-align">
 <p>The content of this session is part of the (self-guided) tutorial for <a href="https://lmu-osc.github.io/FAIR-Data-Management/">FAIR Research Data Management</a>.<sup>1</sup></p>
 <p>You can use it to review today’s material and access some questions and example answers from a DMP.</p>
-<p><img data-src="images/FAIR-data-management-Workshop-DMP.png" style="width:80.0%" data-align="center"></p>
+</div>
+<p><img data-src="images/FAIR-data-management-Workshop-DMP.png" class="border" style="width:80.0%" data-align="center"></p>
 <aside><ol class="aside-footnotes"><li id="fn1"><p>Kleemeyer, M., Leiminger, L., Meier, L. &amp; Walter, D. (2024). FAIR Research Data Management Tutorial. <a href="https://lmu-osc.github.io/FAIR-Data-Management/">https://lmu-osc.github.io/FAIR-Data-Management/</a></p></li></ol></aside></section>
 <section id="thank-you-questions" class="slide level2 section-title center">
 <h2>Thank You! Questions?</h2>
@@ -742,12 +774,12 @@ Laura Meier, Reema Gupta &amp; Sara Lil Middleton
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: 1050,
+        width: 1600,
 
-        height: 700,
+        height: 900,
 
         // Factor of the display size that should remain empty around the content
-        margin: 0.1,
+        margin: 5.0e-2,
 
         math: {
           mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',

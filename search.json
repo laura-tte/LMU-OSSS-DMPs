@@ -25,7 +25,7 @@
     "href": "2026/slides.html#recap-first-simple-fair-checklist",
     "title": "Research Data Management (RDM) plans",
     "section": "Recap: First Simple FAIR Checklist",
-    "text": "Recap: First Simple FAIR Checklist\n\n\nPlanning Phase (Findable + Reusable)\n\nRepository identified\nLicense selected (CC0/CC-BY)\nFile naming conventions documented\nFolder structure planned\nCommunity standards identified\n\nActive Research (Interoperable + Accessible)\n\nREADME maintained with context\nData dictionary created\nMetadata captured systematically\nOpen formats used when possible\nRaw data preserved separately\n\n\nPre-Publication (All FAIR principles)\n\nDocumentation complete and clear\nFormats standardized for sharing\nData uploaded to repository\nMetadata finalized\nAccess permissions set\n\nPublication (Findable + Accessible)\n\nDOI assigned and verified\nORCID profile updated\nData Availability Statement (DAS) written\nAll links functional"
+    "text": "Recap: First Simple FAIR Checklist\n\n\n\nPlanning Phase (Findable + Reusable)\n\nRepository identified\nLicense selected (CC0/CC-BY)\nFile naming conventions documented\nFolder structure planned\nCommunity standards identified\n\nActive Research (Interoperable + Accessible)\n\nREADME maintained with context\nData dictionary created\nMetadata captured systematically\nOpen formats used when possible\nRaw data preserved separately\n\n\nPre-Publication (All FAIR principles)\n\nDocumentation complete and clear\nFormats standardized for sharing\nData uploaded to repository\nMetadata finalized\nAccess permissions set\n\nPublication (Findable + Accessible)\n\nDOI assigned and verified\nORCID profile updated\nData Availability Statement (DAS) written\nAll links functional"
   },
   {
     "objectID": "2026/slides.html#todays-journey",
@@ -60,14 +60,14 @@
     "href": "2026/slides.html#components-of-a-dmp",
     "title": "Research Data Management (RDM) plans",
     "section": "Components of a DMP",
-    "text": "Components of a DMP\n\nResearch data life cycle by Jürgen Rohrwild"
+    "text": "Components of a DMP\n\n\n\n\nResearch data life cycle by Jürgen Rohrwild"
   },
   {
     "objectID": "2026/slides.html#keywords-for-data-sharing",
     "href": "2026/slides.html#keywords-for-data-sharing",
     "title": "Research Data Management (RDM) plans",
     "section": "Keywords for: Data Sharing",
-    "text": "Keywords for: Data Sharing\n\n\n\n\n🔓 Access & Availability\n\nEnsure access\nPublication\nEthical / legal restrictions\nRepositories\n\n⚖️ Conditions & Licensing\n\nLicensing\nEmbargo period\nRestrictions\n\n\n📦 Content to Share\n\nMetadata\nData files\nDocumentation\nCode\n\n👩‍🔬 Others\n\nResponsibilities\nTiming"
+    "text": "Keywords for: Data Sharing\n\n\n\n\n\nAccess & Availability\n\nEnsure access\nPublication\nEthical / legal restrictions\nRepositories\n\nConditions & Licensing\n\nLicensing\nEmbargo period\nAccess restrictions\n\n\nContent to Share\n\nMetadata\nData files\nDocumentation\nCode\n\nOthers\n\nResponsibilities\nTiming\nCosts"
   },
   {
     "objectID": "2026/slides.html#what-belongs-in-your-dmp",
@@ -95,7 +95,7 @@
     "href": "2026/slides.html#why-should-you-care",
     "title": "Research Data Management (RDM) plans",
     "section": "Why should you care?",
-    "text": "Why should you care?\n\n\nA DMP will\n\nclarify central aspects of RDM → structure for and optimization of Data Management\nsupport your own good scientific work → ensures that your data is complete, accurate, trustworthy and FAIR\nbe a data guideline for the entire course of the project → “living document“\n\n\n\n\n\nAI-generated, created with GPT-5"
+    "text": "Why should you care?\n\n\n\nA DMP will\n\nclarify central aspects of RDM → structure for and optimization of Data Management\nsupport your own good scientific work → ensures that your data is complete, accurate, trustworthy and FAIR\nbe a data guideline for the entire course of the project → “living document“\n\n\n\n\n\n\nAI-generated, created with ChatGPT (OpenAI), 2026"
   },
   {
     "objectID": "2026/slides.html#funder-requirements",
@@ -116,14 +116,14 @@
     "href": "2026/slides.html#data-management-plan-tools",
     "title": "Research Data Management (RDM) plans",
     "section": "Data Management plan tools",
-    "text": "Data Management plan tools\n\nSoftware to create Data Management plans\nSimplified workflow, allows collaborative work\nProject management tool for handling research data\nNo repository / storage solution: You cannot upload and store your data in a DMP tool\n\n\nExample: RDMO"
+    "text": "Data Management plan tools\n\n\nSoftware to create Data Management plans\nSimplified workflow, allows collaborative work\nProject management tool for handling research data\nNo repository / storage solution: You cannot upload and store your data in a DMP tool\n\n\n\nExample: RDMO"
   },
   {
     "objectID": "2026/slides.html#research-data-management-organiser-rdmo",
     "href": "2026/slides.html#research-data-management-organiser-rdmo",
     "title": "Research Data Management (RDM) plans",
     "section": "Research Data Management Organiser (RDMO)",
-    "text": "Research Data Management Organiser (RDMO)\n\nOnline-Tool to create DMPs (Open Source)\nDMPs are stored on local servers (by the LMU)\n\n\nFeatures:\n\nUse existing DMP templates (called questionnaires)\nCollaborative Work: Rights- and role management\nImport and export DMPs → polished, funder-ready DMP\nSnapshots: Capture different versions of your DMP"
+    "text": "Research Data Management Organiser (RDMO)\n\n\nOnline-Tool to create DMPs (Open Source)\nDMPs are stored on local servers (by the LMU)\n\n\nFeatures:\n\nUse existing DMP templates (called questionnaires)\nCollaborative Work: Rights- and role management\nImport and export DMPs → polished, funder-ready DMP\nSnapshots: Capture different versions of your DMP"
   },
   {
     "objectID": "2026/slides.html#lets-explore-rdmo-together",
@@ -137,7 +137,7 @@
     "href": "2026/slides.html#now-its-your-turn",
     "title": "Research Data Management (RDM) plans",
     "section": "Now, it’s your turn…",
-    "text": "Now, it’s your turn…\n\n\n\n🛠️ Task (~20 minutes)\n\n\nUse RDMO to start creating a Data Management plan — either for your own research project or for a fictional project you design together in your group.\n\nLog in to RDMO: rdmo.ub.lmu.de\nCreate a new project using the European Research Council (ERC) catalog.\nWork through the questions, thinking carefully about:\n\nWhat types of data you will collect or generate?\nWhich file formats will be used?\nHow you will organize and name files?\nWhat metadata and identifiers will you use?\nWhere to publish your data under which conditions?"
+    "text": "Now, it’s your turn…\n\n\n\n\n🛠️ Task (~20 minutes)\n\n\nUse RDMO to start creating a Data Management plan — either for your own research project or for a fictional project you design together in your group.\n\nLog in to RDMO: rdmo.ub.lmu.de\nCreate a new project using the European Research Council (ERC) catalog.\nWork through the questions, thinking carefully about:\n\nWhat types of data you will collect or generate?\nWhich file formats will be used?\nHow you will organize and name files?\nWhat metadata and identifiers will you use?\nWhere to publish your data under which conditions?"
   },
   {
     "objectID": "2026/slides.html#planning-is-everything",
@@ -151,14 +151,14 @@
     "href": "2026/slides.html#university-library-rdm-services",
     "title": "Research Data Management (RDM) plans",
     "section": "University library: RDM services",
-    "text": "University library: RDM services\n\nRDM information:\n\nFirst contact point for questions concerning Research Data Management (RDM)\nDMP tool, Electronic lab notebook, repositories for data publications, DOI registration, advice & training for all LMU members\nContact via rdm@ub.uni-muenchen.de or -3560\n\nResearch Data LMU: https://fdm.ub.lmu.de/"
+    "text": "University library: RDM services\n\n\nRDM information:\n\nFirst contact point for questions concerning Research Data Management (RDM)\nServices and infrastructures:\n\nDMP tool: RDMO\nElectronic lab notebook: eLabFTW\nRepository for data publications: Open Data LMU\nDOI registration, metadata support\nAdvice & training for all LMU members\n\nContact via rdm@ub.uni-muenchen.de or -3560\n\n\n\n\nResearch Data LMU: https://fdm.ub.lmu.de/"
   },
   {
     "objectID": "2026/slides.html#optional-follow-up",
     "href": "2026/slides.html#optional-follow-up",
     "title": "Research Data Management (RDM) plans",
     "section": "OPTIONAL Follow-Up",
-    "text": "OPTIONAL Follow-Up\nThe content of this session is part of the (self-guided) tutorial for FAIR Research Data Management.1\nYou can use it to review today’s material and access some questions and example answers from a DMP.\n\nKleemeyer, M., Leiminger, L., Meier, L. & Walter, D. (2024). FAIR Research Data Management Tutorial. https://lmu-osc.github.io/FAIR-Data-Management/"
+    "text": "OPTIONAL Follow-Up\n\nThe content of this session is part of the (self-guided) tutorial for FAIR Research Data Management.1\nYou can use it to review today’s material and access some questions and example answers from a DMP.\n\n\nKleemeyer, M., Leiminger, L., Meier, L. & Walter, D. (2024). FAIR Research Data Management Tutorial. https://lmu-osc.github.io/FAIR-Data-Management/"
   },
   {
     "objectID": "2026/slides.html#thank-you-questions",
