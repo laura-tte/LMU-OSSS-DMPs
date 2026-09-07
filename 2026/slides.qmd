@@ -22,11 +22,11 @@ format:
         logo: images/UB-logo.png
 ---
 
-## Following on yesterday's FAIR session  {.center}
+## Following on yesterday's FAIR session  {.center .nostretch}
 
 ![](images/FAIR-RDM-session.png)
 
-::: {.callout-tip .smaller}
+::: {.callout-tip}
 #### Related Session Alert
 Tuesday 8 September, 10:00 - 11:45: FAIR research data management 
 :::
@@ -198,7 +198,7 @@ Visit [partici.fi/36972724](https://partici.fi/36972724) to participate.
 :::
 :::
 
-## DMP keywords {.center .img}
+## DMP keywords {.center .nostretch}
 
 ![](images/word-cloud-particify.png)
 
