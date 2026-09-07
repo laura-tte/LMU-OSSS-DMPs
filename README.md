@@ -97,6 +97,51 @@ quarto render slides.qmd
 
 4. Open the generated HTML file in your browser to view the presentation.
 
+## PDF Export
+
+The slides can be exported to PDF using [`decktape`](https://github.com/astefanutti/decktape). Install it globally once with:
+
+```bash
+npm install -g decktape
+```
+
+[Node.js](https://nodejs.org/) is required.
+
+If Chrome is not available to Puppeteer, install it with:
+
+```bash
+npx puppeteer browsers install chrome 
+```
+
+On Windows, if DeckTape cannot find the installed Chrome version, set the Puppeteer executable path in PowerShell:
+
+```bash
+env:PUPPETEER_EXECUTABLE_PATH="C:\<your-path>\.cache\puppeteer\chrome\win64-<version>\chrome-win64\chrome.exe"
+```
+
+The exact path and Chrome version may differ depending on the local installation.
+
+Export the published presentation with:
+
+```bash
+decktape reveal https://laura-tte.github.io/LMU-OSSS-DMPs/2026/slides.html slides-2026.pdf --size 1600x900
+```
+
+After rendering the project locally, the local HTML file can be used instead: 
+
+```bash
+decktape reveal slides_files/2026/slides.html slides-2026.pdf --size 1600x900
+```
+
+The `--size 1600x900` option should match the dimensions of the Reveal.js slides. Adjust the values if a different canvas size is used.
+
+To export individual fragment states (e.g. bullet points appearing one by one), add:
+
+```bash
+--fragments
+```
+
+
 ## License
 
 The materials can be used, remixed, adapted and shared according to the [CC BY-SA 4.0 Licence](https://creativecommons.org/licenses/by-sa/4.0/). 
