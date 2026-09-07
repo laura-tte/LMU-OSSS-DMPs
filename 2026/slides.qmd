@@ -28,7 +28,7 @@ format:
 
 ::: {.callout-tip .smaller}
 #### Related Session Alert
-Tuesday 8 September, 10:00 - 11:45: FAIR research data management ([TODO: Link to slides]) 
+Tuesday 8 September, 10:00 - 11:45: FAIR research data management 
 :::
 
 
@@ -374,7 +374,7 @@ The content of this session is part of the (self-guided) tutorial for [FAIR Rese
 You can use it to review today’s material and access some questions and example answers from a DMP.
 :::
 
-![](images/FAIR-data-management-Workshop-DMP.png){width="80%" align=center .border} 
+![](images/OSC-FAIR-Data-Management-Workshop-DMP.png){width="77%" fig-align="center" .border} 
 
 
 ## Thank You! Questions? {.section-title .center}
