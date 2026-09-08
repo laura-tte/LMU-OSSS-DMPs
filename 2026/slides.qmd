@@ -28,7 +28,7 @@ format:
 
 ::: {.callout-tip}
 #### Related Session Alert
-Tuesday 8 September, 10:00 - 11:45: FAIR research data management 
+Tuesday 8 September, 10:00 - 11:45: FAIR research data management ([slides](https://osf.io/u7p9n))
 :::
 
 
@@ -69,6 +69,82 @@ Tuesday 8 September, 10:00 - 11:45: FAIR research data management
 :::
 :::
 :::
+
+## Recap: Licensing - Setting the rules {.center}
+
+::::{.columns}
+:::{.column}
+Licenses clarify what others are allowed to do with your data.
+
+- [Creative Commons licenses](https://creativecommons.org/cc-licenses/) are a set of licenses that specify how others can reuse your data → most widely used in research
+- Choose the LEAST restrictive license for maximum impact: 
+    - [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) (if your data isn't copyright protected, e.g. most measurement data)
+    - [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) ("cite me if you use my data")
+:::
+
+:::{.column}
+[![creativecommons.org, CC BY-SA 4.0](images/Ordering_of_Creative_Commons_licenses_from_most_to_least_permissive.png)](https://creativecommons.org)
+:::
+::::
+
+
+## Recap: Repositories - Your data's home {.center .smaller}
+
+:::: {.columns}
+::: {.column width="47%"}
+- Field-specific visibility? → Disciplinary repositories (e.g. [PsychArchives](https://www.psycharchives.org), [GIN](https://gin.g-node.org))
+- Sensitive data + compliance? → Institutional repositories (e.g. [Open Data LMU](https://data.ub.uni-muenchen.de/)) or trusted research environments (TREs)
+- Active collaboration? → Platforms with version control ([GitLab (LRZ)](https://gitlab.lrz.de), [GitHub](https://github.com))
+- Broad discoverability? → General repositories (e.g. [Zenodo](https://zenodo.org))
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="47%" }
+
+:::{.fragment}
+What Makes a Good Repository? 
+:::
+
+:::{.left-align .fragment}
+Look for repositories that offer:
+:::
+
+- Persistent identifiers (e.g. DOI)
+- Clear preservation policies 
+- Good metadata support
+- Community trust (e.g. [CoreTrustSeal certification](https://amt.coretrustseal.org/certificates))
+- A trusted institutional operator
+
+:::{.fragment}
+Use [re3data](https://www.re3data.org/) to check these criteria.
+:::
+:::
+::::
+ 
+:::{.fragment}
+**When in doubt: [Zenodo](https://zenodo.org) is a solid default choice**
+:::
+
+## Recap: Persistent Identifiers - From Repository to Recognition {.center .smaller}
+
+
+::: {.fragment}
+PIDs = Permanent addresses that never break
+:::
+
+::: {.incremental .block-gap}
+- DOI (Digital Object Identifier) → **What you created** (datasets, papers) - *assigned by repository automatically*
+- [ORCID](https://orcid.org) (Open Researcher and Contributor ID) → **Who you are** (your researcher identity) - *you create and update profile* 
+- [RRID](https://rrid.site/) (Research Resource Identifier) → **What you used** (materials, software) - *you look up existing identifiers* 
+- [ROR](https://ror.org) (Research Organization Registry) → **Where you work** (institution, e.g. [https://ror.org/05591te55](https://ror.org/05591te55) for LMU) - *institutional identifier, usually automatic* 
+:::
+
+::: {.fragment .block-gap}
+Start simple: DOI + ORCID covers most needs
+:::
+
 
 ## Today's Journey {.center}
 
