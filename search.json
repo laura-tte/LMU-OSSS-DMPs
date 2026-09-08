@@ -18,7 +18,7 @@
     "href": "2026/slides.html#following-on-yesterdays-fair-session",
     "title": "Research Data Management (RDM) plans",
     "section": "Following on yesterday’s FAIR session",
-    "text": "Following on yesterday’s FAIR session\n\n\n\n\n\n\n\nRelated Session Alert\n\n\nTuesday 8 September, 10:00 - 11:45: FAIR research data management"
+    "text": "Following on yesterday’s FAIR session\n\n\n\n\n\n\n\nRelated Session Alert\n\n\nTuesday 8 September, 10:00 - 11:45: FAIR research data management (slides)"
   },
   {
     "objectID": "2026/slides.html#recap-first-simple-fair-checklist",
@@ -26,6 +26,27 @@
     "title": "Research Data Management (RDM) plans",
     "section": "Recap: First Simple FAIR Checklist",
     "text": "Recap: First Simple FAIR Checklist\n\n\n\nPlanning Phase (Findable + Reusable)\n\nRepository identified\nLicense selected (CC0/CC-BY)\nFile naming conventions documented\nFolder structure planned\nCommunity standards identified\n\nActive Research (Interoperable + Accessible)\n\nREADME maintained with context\nData dictionary created\nMetadata captured systematically\nOpen formats used when possible\nRaw data preserved separately\n\n\nPre-Publication (All FAIR principles)\n\nDocumentation complete and clear\nFormats standardized for sharing\nData uploaded to repository\nMetadata finalized\nAccess permissions set\n\nPublication (Findable + Accessible)\n\nDOI assigned and verified\nORCID profile updated\nData Availability Statement (DAS) written\nAll links functional"
+  },
+  {
+    "objectID": "2026/slides.html#recap-licensing---setting-the-rules",
+    "href": "2026/slides.html#recap-licensing---setting-the-rules",
+    "title": "Research Data Management (RDM) plans",
+    "section": "Recap: Licensing - Setting the rules",
+    "text": "Recap: Licensing - Setting the rules\n\n\nLicenses clarify what others are allowed to do with your data.\n\nCreative Commons licenses are a set of licenses that specify how others can reuse your data → most widely used in research\nChoose the LEAST restrictive license for maximum impact:\n\nCC0 1.0 (if your data isn’t copyright protected, e.g. most measurement data)\nCC BY 4.0 (“cite me if you use my data”)\n\n\n\n\n\n\ncreativecommons.org, CC BY-SA 4.0"
+  },
+  {
+    "objectID": "2026/slides.html#recap-repositories---your-datas-home",
+    "href": "2026/slides.html#recap-repositories---your-datas-home",
+    "title": "Research Data Management (RDM) plans",
+    "section": "Recap: Repositories - Your data’s home",
+    "text": "Recap: Repositories - Your data’s home\n\n\n\nField-specific visibility? → Disciplinary repositories (e.g. PsychArchives, GIN)\nSensitive data + compliance? → Institutional repositories (e.g. Open Data LMU) or trusted research environments (TREs)\nActive collaboration? → Platforms with version control (GitLab (LRZ), GitHub)\nBroad discoverability? → General repositories (e.g. Zenodo)\n\n\n\n\n\nWhat Makes a Good Repository?\n\n\nLook for repositories that offer:\n\n\nPersistent identifiers (e.g. DOI)\nClear preservation policies\nGood metadata support\nCommunity trust (e.g. CoreTrustSeal certification)\nA trusted institutional operator\n\n\nUse re3data to check these criteria.\n\n\n\nWhen in doubt: Zenodo is a solid default choice"
+  },
+  {
+    "objectID": "2026/slides.html#recap-persistent-identifiers---from-repository-to-recognition",
+    "href": "2026/slides.html#recap-persistent-identifiers---from-repository-to-recognition",
+    "title": "Research Data Management (RDM) plans",
+    "section": "Recap: Persistent Identifiers - From Repository to Recognition",
+    "text": "Recap: Persistent Identifiers - From Repository to Recognition\n\nPIDs = Permanent addresses that never break\n\n\n\nDOI (Digital Object Identifier) → What you created (datasets, papers) - assigned by repository automatically\nORCID (Open Researcher and Contributor ID) → Who you are (your researcher identity) - you create and update profile\nRRID (Research Resource Identifier) → What you used (materials, software) - you look up existing identifiers\nROR (Research Organization Registry) → Where you work (institution, e.g. https://ror.org/05591te55 for LMU) - institutional identifier, usually automatic\n\n\n\nStart simple: DOI + ORCID covers most needs"
   },
   {
     "objectID": "2026/slides.html#todays-journey",
