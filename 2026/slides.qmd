@@ -260,7 +260,7 @@ Use an **alias name**, your **real name**, or **abstain** for polls/quizzes in P
 ::: {.column width="70%"}
 ::: {.left-align .callout-note icon=false}
 ## 🛠️ Task (~5 minutes)
-Imagine you are about to start a new research project. For that you will create a Data Management plan that should cover all data related aspects of your project. In small groups, **brainstorm what should be included in this plan** - taking into account the specifics of your research discipline.
+Imagine you are about to start a new research project. For that you will create a Data Management plan that should cover all data related aspects of your project. **Brainstorm what should be included in this plan** - taking into account the specifics of your research discipline.
 :::
 ::: {.smallestish .center}
 ![[Research data life cycle](https://www.fdm-bayern.org/forschungsdatenmanagement/#fd-lebenszyklus) by Jürgen Rohrwild](images/RD-Lifecycle.png){width="50%"}

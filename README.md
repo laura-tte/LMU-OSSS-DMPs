@@ -38,10 +38,10 @@ By the end of this session, participants will:
 
 | Time | Duration | Section | Content & Activities | Type |
 |------|----------|---------|---------------------|------|
-| 00:00 | 5 min | **Introduction** | Connection to [FAIR session](https://github.com/ree-gupta/osss-fair-rdm/tree/main): FAIR checklist, today's topics, introduce Particify  | Presentation |
-| 00:05 | 10 min | **Part I: How to plan Data Management?** | DMP intro, components of a DMP | Presentation + Group work (using Particify) |
-| 00:15 | 10 min | **Part II: Why bother planning your Data Management?** | Advantages of a DMP, Funder requirements, Improve answer for DFG checklist | Presentation + Group work (using Particify) |
-| 00:25 | 30 min | **Part III: Tools that support you in planning** | DMP tools, Introduce RDMO, Create a DMP with RDMO | Presentation + Live Demo + Time to create a DMP|
+| 00:00 | 5 min | **Introduction** and recap | Connection to [FAIR session](https://github.com/ree-gupta/osss-fair-rdm/tree/main): FAIR checklist, today's topics, introduce Particify  | Presentation |
+| 00:05 | 10 min | **Part I: How to plan Data Management?** | DMP intro, components of a DMP | Presentation + Interactive exercise (using Particify) |
+| 00:15 | 10 min | **Part II: Why bother planning your Data Management?** | Advantages of a DMP, Funder requirements, Improve answer for DFG checklist | Presentation + Interactive exercise (using Particify) |
+| 00:25 | 30 min | **Part III: Tools that support you in planning** | DMP tools, Introduce RDMO, Create a DMP with RDMO | Presentation + Live Demo + Time to create a DMP (in groups) |
 | 00:55 | 5 min | **Wrap-Up** | University library: RDM services, recommend self-guided tutorial | Presentation |
 
 
