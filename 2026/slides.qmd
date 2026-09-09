@@ -259,7 +259,7 @@ Use an **alias name**, your **real name**, or **abstain** for polls/quizzes in P
 
 ::: {.column width="70%"}
 ::: {.left-align .callout-note icon=false}
-## 🛠️ Task (~5 minutes)
+## 🛠️ Task (~3 minutes)
 Imagine you are about to start a new research project. For that you will create a Data Management plan that should cover all data related aspects of your project. **Brainstorm what should be included in this plan** - taking into account the specifics of your research discipline.
 :::
 ::: {.smallestish .center}
@@ -325,7 +325,7 @@ Based on: <br/>
 ::: {.columns}
 ::: {.column width="70%"}
 ::: {.left-align .callout-note icon=false}
-## 🛠️ Task (~5 minutes)
+## 🛠️ Task (~3 minutes)
 - **[DFG Checklist, section 1: Data description](https://www.dfg.de/resource/blob/174736/forschungsdaten-checkliste-en.pdf)** <br/>
 How does your project generate new data? Is existing data reused? Which data types (in terms of data formats like image data, text data or measurement data) arise in your project and in what way are they further processed? To what extent do these arise or what is the anticipated data volume?
 
